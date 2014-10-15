@@ -1,27 +1,32 @@
 body {background-color: #404040;padding: 0px;margin: 0px;}
+#topdiv {position: fixed;top: 0;bottom: auto;height: 20px;width: 100%;background-color: #202020;}
 
-#headdiv {height: 120px;width: 100%;color: #00ff00;line-height: 120px;text-align: center;font-size: 30px;font-weight: bold;}
+#headdiv {height: 100px;width: 100%;color: #88ff00;line-height: 120px;text-align: center;font-size: 30px;font-weight: bold;}
 
-#maindiv {height: 40px;width: 60%;background-color: #303030;text-align: center;overflow: hidden;margin-right: auto;margin-left: auto;}
+#maindiv {height: 40px;width: 60%;background-color: #303030;text-align: center;overflow: hidden;margin-right: auto;margin-left: auto;padding-left: 20%;padding-right: 20%;background-color: #600000;}
 
 #maindiv ul {list-style-type: none;padding: 0px;margin: 0px;}
 
 .mainlist a {text-align: center;height: 40px;width: 20%;float: left;line-height: 40px;color: white;text-decoration: none;}
 
-.mainlist a:hover{background-color: #101010;}
+.mainlist a:hover{background-color: #151515;}
 
 #blankdiv {height: 50px;width: 100%;}
 
-#middlediv {height: 250px;width: 100%;}
+#middlediv {height: 200px;width: 100%;}
 
-#middlediv ul {height: 50px;width: 60%;background-color: #333333;margin-left: auto;margin-right: auto;list-style-type: none;padding: 0px;margin-top: 1px;margin-bottom: 1px;}
+#middlediv ul {height: 40px;width: 50%;background-color: #333333;margin-left: auto;margin-right: auto;list-style-type: none;padding: 0px;margin-top: 1px;margin-bottom: 1px;}
 
-.linkdiv {height: 50px; width: 25%;float: left;line-height: 50px;text-align: center;}
+.linkdiv {height: 40px; width: 25%;float: left;line-height: 40px;text-align: center;}
 
-.linkdiv a {text-decoration: none;color: red;}
+.linkdiv a {text-decoration: none;color: #c0c000;}
+
+.linkdiv:hover a{color: #cccccc;}
 
 #buttondiv {height: 30px;width: 200px;margin-left: auto;margin-right: auto;text-align: center;line-height: 30px;}
 
 #buttondiv a {color: #000000;text-decoration: none;font-size: 20px;font-weight: bold;}
 
 #buttondiv a:hover {color: #ffffff;}
+
+.taildiv {text-align: center;line-height: 15px;color: #909090;font-size: 1px;background-color: #202020;width: 100%;bottom: 0;top: auto;position: fixed;}
