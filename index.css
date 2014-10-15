@@ -1,0 +1,19 @@
+body {background-color: #404040;padding: 0px;margin: 0px;}
+
+#headdiv {height: 120px;width: 100%;color: #00ff00;line-height: 120px;text-align: center;font-size: 30px;font-weight: bold;}
+
+#maindiv {height: 40px;width: 60%;background-color: #303030;text-align: center;overflow: hidden;margin-right: 20%;margin-left: 20%;}
+
+#maindiv ul {list-style-type: none;padding: 0px;margin: 0px;}
+
+.mainlist a {text-align: center;height: 40px;width: 20%;float: left;line-height: 40px;color: white;text-decoration: none;}
+
+.mainlist a:hover{background-color: #101010;}
+
+#middlediv {height: 250px;width: 100%;}
+
+#buttondiv {height: 30px;width: 200px;margin-left: auto;margin-right: auto;text-align: center;line-height: 30px;}
+
+#buttondiv a {color: #000000;text-decoration: none;font-size: 20px;font-weight: bold;}
+
+#buttondiv a:hover {color: #ffffff;}
